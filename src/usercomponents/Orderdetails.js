@@ -27,10 +27,10 @@ export const Orderdetails = () => {
 	{
 	  document.getElementById('cancelproduct').style='display:none';
 	}
-  function ShowReturnOrder()
+  /*function ShowReturnOrder()
 	{
 	  document.getElementById('returnproduct').style='display:block';
-	}	
+	}*/	
 	function CloseReturnOrder()
 	{
 	  document.getElementById('returnproduct').style='display:none';
