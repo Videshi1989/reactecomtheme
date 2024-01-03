@@ -104,7 +104,7 @@ import './css/index.scss'
       <div id="popupsignin" className="overlay" style={{display:'none'}}>
 
         <div className="popup-signin animate-zoom">
-          <div className="parentuser"><img loading='lazy'  src={userimg} alt="User Image" className="usericon"/></div>
+          <div className="parentuser"><img loading='lazy'  src={userimg} alt="User" className="usericon"/></div>
           <h4 className="heading">Sign in <i className="fa fa-pencil heading-icon" aria-hidden="true"></i></h4>
           <hr className="hrline" />
           <span onClick={CloseSignIn}><img loading='lazy'  src={closebtn} alt="close button" className="close" title="Close"/></span>
@@ -132,7 +132,7 @@ import './css/index.scss'
 
         <div id="popupforgot" className="overlay" style={{display:'none'}}>
         <div className="popup-forgot animate-zoom">
-          <div className="parentuser"><img loading='lazy'  src={userimg} alt="User Image" className="usericon"/></div>
+          <div className="parentuser"><img loading='lazy'  src={userimg} alt="User" className="usericon"/></div>
           <h4 className="heading">Forgot Password <i className="fa fa-eye-slash" aria-hidden="true"></i></h4>
           <hr className="hrline" />
           <span onClick={CloseForgot}><img loading='lazy'  src={closebtn} alt="close button" className="close" title="Close"/></span>
@@ -154,7 +154,7 @@ import './css/index.scss'
 
       <div id="popupsignup" className="overlay" style={{display:'none'}}>
         <div className="popup animate-zoom">
-          <div className="parentuser"><img loading='lazy'  src={userimg} alt="User Image" className="usericon"/></div>
+          <div className="parentuser"><img loading='lazy'  src={userimg} alt="User" className="usericon"/></div>
           <h4 className="heading">Sign up <i className="fa fa-pencil-square-o heading-icon" aria-hidden="true"></i></h4>
           <hr className="hrlinesignup " />
           <span onClick={CloseSignUp}><img loading='lazy'  src={closebtn} alt="close button" className="close" title="Close"/></span>

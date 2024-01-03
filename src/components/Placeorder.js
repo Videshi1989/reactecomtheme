@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import {Link} from 'react-router-dom'
+//import {Link} from 'react-router-dom'
 import Header from './Header'
 import Footer from './Footer'
 import loader from './Images/loader.png'
@@ -31,10 +31,10 @@ export default function Placeorder()
     {
       document.getElementById('addaddress').style='display:none';
     }
-    function ShowEditAddress()
+    /*function ShowEditAddress()
     {
       document.getElementById('editaddress').style='display:block';
-    }
+    }*/
     function CloseEditAddress()
     {
       document.getElementById('editaddress').style='display:none';

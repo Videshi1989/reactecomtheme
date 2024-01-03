@@ -29,22 +29,22 @@ const pathsplit = path.split("/");
                             
                             <ul className="admin pull-right">
                                 <li title="Notifications" onClick={Shownotification}><i className="fa fa-bell-o" aria-hidden="true"></i><span>10</span></li>
-                                <li className='adminprofile' onClick={Showprofile}><img loading='lazy'  src={admin}  alt="admin" /><i style={{display:`${profile == false ? 'unset' : 'none'}`}} className="fa fa-caret-down down" aria-hidden="true"></i><i style={{display:`${profile == true ? 'unset' : 'none'}`}} className="fa fa-caret-up down" aria-hidden="true"></i></li>
+                                <li className='adminprofile' onClick={Showprofile}><img loading='lazy'  src={admin}  alt="admin" /><i style={{display:`${profile === false ? 'unset' : 'none'}`}} className="fa fa-caret-down down" aria-hidden="true"></i><i style={{display:`${profile === true ? 'unset' : 'none'}`}} className="fa fa-caret-up down" aria-hidden="true"></i></li>
                             </ul>
                             
-                            <div className="parent-notification animate-zoom" style={{display:`${notification == true ? 'block' : 'none'}`}}>
+                            <div className="parent-notification animate-zoom" style={{display:`${notification === true ? 'block' : 'none'}`}}>
                                     <ul className="notification">
-                                        <li><a href="#"><i className="fa fa-user" aria-hidden="true"></i> You have two missed calls </a></li>
-                                        <li><a href="#"><i className="fa fa-unlock-alt" aria-hidden="true"></i> You have two missed calls</a></li>
-                                        <li><a href="#"><i className="fa fa-sign-out" aria-hidden="true"></i> You have two missed calls</a></li>
+                                        <li><span><i className="fa fa-user" aria-hidden="true"></i> You have two missed calls </span></li>
+                                        <li><span><i className="fa fa-unlock-alt" aria-hidden="true"></i> You have two missed calls</span></li>
+                                        <li><span><i className="fa fa-sign-out" aria-hidden="true"></i> You have two missed calls</span></li>
                                     </ul>
                             </div>
                             
-                            <div className="parent-profile animate-zoom" style={{display:`${profile == true ? 'block' : 'none'}`}}>
+                            <div className="parent-profile animate-zoom" style={{display:`${profile === true ? 'block' : 'none'}`}}>
                                     <ul className="profile">
-                                        <li title="My Profile" className={`${ pathsplit[3]=='profile' ? 'active' : '' }`}><NavLink to="/profile"><i className="fa fa-user" aria-hidden="true"></i> My Profile</NavLink></li>
-                                        <li title="Change Password" className={`${ pathsplit[3]=='changepasswordadmin' ? 'active' : '' }`}><NavLink to="/changepasswordadmin"><i className="fa fa-unlock-alt" aria-hidden="true"></i> Change Password</NavLink></li>
-                                        <li title="Logout"><a href="#"><i className="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+                                        <li title="My Profile" className={`${ pathsplit[3]==='profile' ? 'active' : '' }`}><NavLink to="/profile"><i className="fa fa-user" aria-hidden="true"></i> My Profile</NavLink></li>
+                                        <li title="Change Password" className={`${ pathsplit[3]==='changepasswordadmin' ? 'active' : '' }`}><NavLink to="/changepasswordadmin"><i className="fa fa-unlock-alt" aria-hidden="true"></i> Change Password</NavLink></li>
+                                        <li title="Logout"><span><i className="fa fa-sign-out" aria-hidden="true"></i> Logout</span></li>
                                     </ul>
                             </div>
                         

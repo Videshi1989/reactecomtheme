@@ -16,12 +16,12 @@ import ele3 from './../components/Images/ele3.jpg'
 export default function Allproductview2()
 {
     const[showloader,Setshowloader] = useState(true);     //loading effect
-    const[closefilter,Setclosefilter] = useState(false);
-    
+    //const[closefilter,Setclosefilter] = useState(false);
+    var closefilter = false;
 
 
     //for mobile view responsive
-    var slidecount=4;
+    /*var slidecount=4;
     var spaceBetween=20;
     var screenwidth = window.innerWidth;
     if(screenwidth >= 360 && screenwidth <= 767)
@@ -33,7 +33,7 @@ export default function Allproductview2()
     {
         slidecount=4;
         spaceBetween=20;
-    }
+    }*/
     //
     
     
@@ -53,7 +53,7 @@ export default function Allproductview2()
                         <div className='mt-4 d-none'><span className='lbl-total'><b>Total:</b></span> <span className='lbl-total'>300 Products</span></div>
                  
                      
-                        <div className={`parent-product ${closefilter == false ? 'block margin70mob' : 'none'}`}>
+                        <div className={`parent-product ${closefilter === false ? 'block margin70mob' : 'none'}`}>
                         {/*         for desktop view              */}
                         {/* on every 4th div we will add border-right and bdr-radius-top-right class */}
                         {/* on last row div we will add border-bottom  class */} 

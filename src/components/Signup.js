@@ -29,7 +29,7 @@ export default function Signup()
                        <img loading='lazy'  src={signup} alt="login" className='signup-img'/>
                     </div>
                     <div className="cart-login mw50 mobwidth100">
-    <div className="cart-parentuser"><img loading='lazy'  src={userimg} alt="User Image" className="usericon"/></div>
+    <div className="cart-parentuser"><img loading='lazy'  src={userimg} alt="User" className="usericon"/></div>
     <h4 className="cart-heading">Sign up <i className="fa fa-pencil-square-o heading-icon" aria-hidden="true"></i></h4>
     <hr className="cart-hrline" />
    

@@ -45,7 +45,7 @@ function Showreg()
     
   
     <div className="cart-login">
-    <div className="cart-parentuser"><img loading='lazy'  src={userimg} alt="User Image" className="usericon"/></div>
+    <div className="cart-parentuser"><img loading='lazy'  src={userimg} alt="User" className="usericon"/></div>
     <h4 className="cart-heading">Sign in <i className="fa fa-pencil-square-o heading-icon" aria-hidden="true"></i></h4>
     <hr className="cart-hrline" />
    
@@ -75,7 +75,7 @@ function Showreg()
 
 </form>
   </div> :  <div className="cart-login">
-    <div className="cart-parentuser"><img loading='lazy'  src={userimg} alt="User Image" className="usericon"/></div>
+    <div className="cart-parentuser"><img loading='lazy'  src={userimg} alt="User" className="usericon"/></div>
     <h4 className="cart-heading">Forgot Password <i className="fa fa-eye-slash" aria-hidden="true"></i></h4>
     <hr className="cart-hrline" />
    
@@ -98,7 +98,7 @@ function Showreg()
 
 
 { showreg ? <div className="cart-login">
-    <div className="cart-parentuser"><img loading='lazy'  src={userimg} alt="User Image" className="usericon"/></div>
+    <div className="cart-parentuser"><img loading='lazy'  src={userimg} alt="User" className="usericon"/></div>
     <h4 className="cart-heading">Sign up <i className="fa fa-pencil-square-o heading-icon" aria-hidden="true"></i></h4>
     <hr className="cart-hrline" />
     

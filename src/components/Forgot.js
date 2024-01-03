@@ -28,7 +28,7 @@ export default function Forgot()
                        <img loading='lazy'   src={forgot} alt="login" className='login-img'/>
                     </div>
                     <div className="cart-login w-40 mobwidth100">
-    <div className="cart-parentuser"><img loading='lazy'  src={userimg} alt="User Image" className="usericon"/></div>
+    <div className="cart-parentuser"><img loading='lazy'  src={userimg} alt="User" className="usericon"/></div>
     <h4 className="cart-heading">Forgot Password  <i className="fa fa-eye-slash heading-icon" aria-hidden="true"></i></h4>
     <hr className="cart-hrline" />
    

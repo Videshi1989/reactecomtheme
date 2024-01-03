@@ -45,11 +45,11 @@ const SideBar = () => {
         
 
         <div className="dropdown">
-          <button className={`dropbtn ${ pathsplit[3]=='product' || pathsplit[3]=='fashion' || pathsplit[3]=='offer' ? 'active' : '' }`}><i className="fa fa-product-hunt" aria-hidden="true"></i> Product <i className="fa fa-caret-down down-triangle hide-icon" aria-hidden="true"></i><i className="fa fa-caret-up down-triangle show-icon" style={{ display: 'none' }} aria-hidden="true"></i></button>
+          <button className={`dropbtn ${ pathsplit[3]==='product' || pathsplit[3]==='fashion' || pathsplit[3]==='offer' ? 'active' : '' }`}><i className="fa fa-product-hunt" aria-hidden="true"></i> Product <i className="fa fa-caret-down down-triangle hide-icon" aria-hidden="true"></i><i className="fa fa-caret-up down-triangle show-icon" style={{ display: 'none' }} aria-hidden="true"></i></button>
           <div className="dropdown-content">
-            <NavLink to="/product" exact="true"  className={`${ pathsplit[3]=='product' ? 'activesubmenu' : '' }`}><i className="fa fa-bandcamp" aria-hidden="true"></i> Product <i className="fa fa-caret-right side-icon" aria-hidden="true"></i></NavLink>
-            <NavLink to="/fashion"  exact="true" className={`${ pathsplit[3]=='fashion' ? 'activesubmenu' : '' }`}><i className="fa fa-snowflake-o" aria-hidden="true"></i> Fashion <i className="fa fa-caret-right side-icon" aria-hidden="true"></i></NavLink>
-            <NavLink to="/" exact="true" className={`${ pathsplit[3]=='offer' ? 'activesubmenu' : '' }`}><i className="fa fa-power-off" aria-hidden="true"></i> Offer <i className="fa fa-caret-right side-icon" aria-hidden="true"></i></NavLink>
+            <NavLink to="/product" exact="true"  className={`${ pathsplit[3]==='product' ? 'activesubmenu' : '' }`}><i className="fa fa-bandcamp" aria-hidden="true"></i> Product <i className="fa fa-caret-right side-icon" aria-hidden="true"></i></NavLink>
+            <NavLink to="/fashion"  exact="true" className={`${ pathsplit[3]==='fashion' ? 'activesubmenu' : '' }`}><i className="fa fa-snowflake-o" aria-hidden="true"></i> Fashion <i className="fa fa-caret-right side-icon" aria-hidden="true"></i></NavLink>
+            <NavLink to="/" exact="true" className={`${ pathsplit[3]==='offer' ? 'activesubmenu' : '' }`}><i className="fa fa-power-off" aria-hidden="true"></i> Offer <i className="fa fa-caret-right side-icon" aria-hidden="true"></i></NavLink>
           </div>
         </div>
 
