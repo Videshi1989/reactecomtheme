@@ -120,7 +120,9 @@ import './css/index.scss'
     
   </div>
   <br/>
-   <button type="button"  className="btn btn-success btn-bg w-100">Sign in <i className="fa fa-sign-in" aria-hidden="true"></i></button><br/>
+   {/* <button type="button"  className="btn btn-success btn-bg w-100">Sign in <i className="fa fa-sign-in" aria-hidden="true"></i></button><br/> */}
+   <Link to="/myprofile"  className="btn btn-success btn-bg w-100">Sign in <i className="fa fa-sign-in" aria-hidden="true"></i></Link><br/>
+   
    <br/>
    <span title="Forgot Password" className="fgtpwd" onClick={ShowForgot} >Forgot Password</span>
    <span onClick={ShowSignUp} className="fgtpwd" style={{float:"left",textDecoration:"underline"}} >New user? Don't have an account</span>
