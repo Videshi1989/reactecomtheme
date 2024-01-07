@@ -2518,10 +2518,10 @@ display:block;
  .adtoffer {
   height: unset;
   margin-bottom: 30px;
-}
-.offerdiv {
+  }
+  .offerdiv {
   width: 100%;
- }
+  }
  .popup-cart {
     top: 5%;
     right: 5%;
@@ -2594,7 +2594,7 @@ display:block;
   .show-all-cat img {
     width: 30px;
     margin-top: 8px;
-}
+  }
 .category-image img {
   width: 30px;
   height: 30px;
@@ -2954,6 +2954,13 @@ margin-bottom: 25px;
   padding: 15px 10px 195px 10px;
 }
 .brdrrightmob{border-right:1px solid $productbg;}
+
+.popup-subcategory {
+  left: 5%;
+  width: 90%;
+  }
+
+
 
 }
 
