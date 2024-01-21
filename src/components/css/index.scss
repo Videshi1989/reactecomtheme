@@ -2687,8 +2687,9 @@ display:block;
   margin-top: 15px;
 }
 .parent-items-div-another {
-  width: unset!important;
+  width: 50%!important;
   border-bottom: 1px solid $productborder;
+  border-right: 1px solid $productborder;
 }
 .items-div-another img {
   width: 100%;
@@ -2719,7 +2720,7 @@ display:block;
 }
 .parent-product {
   margin-top: unset;
-  margin-bottom: unset;
+  margin-bottom: 30px;
 }
 .description img {
   float: unset;
