@@ -64,7 +64,7 @@ export default function Allproductview2()
                          {/*         for mobile view              */}
                         {/* on every third div we will add border-rightmob and bdr-radius-top-rightmob class */}
                         {/* on last row div we will add border-bottom-lastrowdivmob class */}
-                         {/* on last div we will add mobbordrnone class  */}
+                        
                          
                     <div className='parent-items-div-another repeat-item'>   
                     <div className='items-div-another bdr-radius-top-left'>
@@ -190,7 +190,7 @@ export default function Allproductview2()
                 </div>
                 </div>
                
-                <div className='parent-items-div-another mobbordrnone repeat-item'>        
+                <div className='parent-items-div-another repeat-item'>        
                     <div className='items-div-another border-right border-bottom-lastrowdiv bdr-radius-bottom-right border-rightmob border-bottom-lastrowdivmob'>
                     <Link to="/productdetails"><img loading='lazy'   alt="img" title="product name" src={ele1} /></Link>
                     <i className="fa fa-heart like" aria-hidden="true" title="Add to wishlist"></i>

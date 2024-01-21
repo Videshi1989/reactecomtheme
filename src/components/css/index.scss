@@ -2689,8 +2689,10 @@ display:block;
 .parent-items-div-another {
   width: 50%!important;
   border-bottom: 1px solid $productborder;
-  border-right: 1px solid $productborder;
+ // border-right: 1px solid $productborder;
 }
+
+
 .items-div-another img {
   width: 100%;
   padding-bottom: 0px;
